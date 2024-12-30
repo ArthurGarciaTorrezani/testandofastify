@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@fastify/postgres": "^6.0.1",
+    "dotenv": "^16.4.7",
+    "fast-json-body": "^1.1.0",
+    "fastify": "^5.2.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1"
+  },
+  "name": "aprendendofastify",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
